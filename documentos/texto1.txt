@@ -1,0 +1,18 @@
+El procesamiento del lenguaje natural es un campo dentro de la inteligencia artificial y la lingüística aplicada que estudia las interacciones
+mediante uso del lenguaje natural entre los seres humanos y las máquinas. Más concretamente se centra en el procesamiento de las comunicaciones
+humanas, dividiéndolas en partes, e identificando los elementos más relevantes del mensaje. Con la comprensión y generación de lenguaje natural,
+busca que las máquinas consigan entender, interpretar y manipular el lenguaje humano.
+
+Los asistentes virtuales o chatbots son una de las utilidades más conocidas de la PLN, pero no son la única. Además, es importante entender que el
+PNL no dota de inteligencia a un chatbot, sólo le da la capacidad de procesar y generar lenguaje humano. En caso de querer dotar de inteligencia a
+un asistente virtual, habría que utilizar sistemas como reglas o redes neuronales. Muchas veces cuando se habla de procesamiento de lenguaje
+natural, algunas personas únicamente lo relacionan con los chatbots, por eso vamos a ver otros usos del PLN. El procesamiento del lenguaje natural,
+se utiliza actualmente en diferentes áreas y para distintas funciones, como por ejemplo:
+
+La comprensión del lenguaje natural es la parte del procesamiento del lenguaje natural que se encarga de interpretar un mensaje y entender su
+significado e intención, tal y como haría una persona. Para que el sistema funcione necesita datasets en el idioma específico, reglas de gramática,
+teoría semántica y pragmática.
+
+La generación del lenguaje natural dota a la máquina de la capacidad de crear un nuevo mensaje en lenguaje humano de manera autónoma. De manera
+resumida, lo que hacen estos modelos es: escoger la información a reproducir, decidir cómo organizarla y cómo reproducirla. Estos modelos generan
+frases nuevas palabra a palabra y tienen que ser entrenados para que funcionen correctamente.

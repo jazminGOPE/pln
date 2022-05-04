@@ -1,0 +1,156 @@
+﻿Un servidor es un ordenador o equipo informático que se encarga de transmitir información a otros ordenadores que estén conectados a él. Además, esta transmisión de información también puede ser de ordenador a personas.
+La transferencia de datos se puede hacer a través de una red local o incluso por internet.
+Para que la comunicación entre dispositivos y el servidor se mantenga, éste tiene que estar encendido. En el caso de que no sea así, la transmisión de datos no se realizaría.
+Los servidores son utilizados diariamente por empresas y particulares. La mayoría de las personas creen que sólo sirven para alojar información, pero existen más finalidades. Un servidor puede responder a distintas finalidades, desde funcionar como un servidor de una plataforma de videojuegos, pasando por alojar una página web hasta funcionar como un almacenamiento remoto. Puede servir para muchas cosas distintas.
+En la presente investigación se explicaran las principales características de los tipos de servidores mas utilizados: Apache, MySQL, SQLServer, Firebird, Oracle, Filezilla, AndFTP, FTPClient.
+
+
+1. Servidor web:
+1.1. Apache.
+El servidor HTTP Apache2 es un servidor web de software libre desarrollado por la Apache Software Foundation (ASF). El producto obtenido de este proyecto es un servidor de código fuente completo, descargable y gratuito. 
+Apache2 es un servidor robusto, estable, eficiente, extensible y multiplataforma.
+Desde el año 1996 es el servidor más utilizado en Internet y es el utilizado en los sistemas GNU/Linux.
+
+Características generales:
+
+Configurable y extensible mediante módulos. Existe gran cantidad de módulos disponibles para Apache2 y permite la creación de nuevos módulos por parte de usuarios programadores.
+Proporciona el código fuente con licencia sin restricciones. Es gratuito, pero ante todo es código fuente libre, lo cual permite saber en todo momento qué estamos instalando.
+Multiplataforma. Existen versiones tanto para Windows como para GNU/Linux.
+Continua actualización y desarrollo. Un grupo de desarrolladores está continuamente revisando y corrigiendo todos los fallos de seguridad y generales de la herramienta que van surgiendo entre versiones.
+Bases de datos DBM para autenticación de usuarios. Permiten la protección de documentos mediante contraseñas para una gran cantidad de usuarios.
+Permite crear páginas web protegidas. Mediante contraseñas con un número grande de usuarios autorizados, sin sobrecargar el servidor.
+Permite personalizar las respuestas a errores y problemas del servidor.
+Múltiples directivas DirectoryIndex. Ejemplo: DirectoryIndex index.html index.cgi que indica al servidor que debe enviar index.html o ejecutar index.cgi cuando se acceda a una URL que sea un directorio.
+Sin límite fijo sobre el número de Alias y redirecciones. Pueden ser declaradas en los archivos de configuración.
+Negociación de contenido. El servidor proporciona a los clientes web de diferentes tipos los documentos con el mejor nivel de calidad que estos clientes web pueden soportar.
+Hosts virtuales también llamados servidores multi-alojados. Esto permite al servidor distinguir entre peticiones hechas a diferentes direcciones.
+Archivos logs configurables. Se puede configurar Apache2 para generar logs en el formato que se quiera.
+
+
+
+2. Servidor de base de datos.
+2.1. MySQL.
+Los servidores de base de datos son ordenadores que están preparados para ofrecer servicios de almacenamiento, alojar y gestionar bases de datos que son utilizadas por uno o varios clientes. Estos servidores también realizan tareas relacionadas con el análisis de los datos y su manipulación, el almacenamiento, entre otros.
+MySQL es un sistema de gestión de bases de datos relacionales (RDBMS) de código abierto respaldado por Oracle y basado en el lenguaje de consulta estructurado (SQL). MySQL funciona prácticamente en todas las plataformas, incluyendo Linux, UNIX y Windows. Aunque puede utilizarse en una amplia gama de aplicaciones, MySQL se asocia más a menudo con las aplicaciones web y la publicación en línea.
+
+Características:
+
+Arquitectura Cliente y Servidor: MySQL basa su funcionamiento en un modelo cliente y servidor. Es decir, clientes y servidores se comunican entre sí de manera diferenciada para un mejor rendimiento. Cada cliente puede hacer consultas a través del sistema de registro para obtener datos, modificarlos, guardar estos cambios o establecer nuevas tablas de registros, por ejemplo.
+Compatibilidad con SQL: SQL es un lenguaje generalizado dentro de la industria. Al ser un estándar MySQL ofrece plena compatibilidad.
+Vistas: MySQL se ofrece compatibilidad para poder configurar vistas personalizadas. En bases de datos de gran tamaño las vistas se hacen un recurso imprescindible. 
+Procedimientos almacenados. Posee la característica de no procesar las tablas directamente sino que a través de procedimientos almacenados es posible incrementar la eficacia de nuestra implementación. 
+Desencadenantes. Permite además poder automatizar ciertas tareas dentro de nuestra base de datos. En el momento que se produce un evento otro es lanzado para actualizar registros o optimizar su funcionalidad. 
+Transacciones. Una transacción representa la actuación de diversas operaciones en la base de datos como un dispositivo. El sistema de base de registros avala que todos los procedimientos se establezcan correctamente o ninguna de ellas. En caso por ejemplo de una falla de energía, cuando el monitor falla u ocurre algún otro inconveniente, el sistema opta por preservar la integridad de la base de datos resguardando la información. 
+Seguridad. Para la seguridad, MySQL utiliza un sistema de privilegios de acceso y contraseñas encriptadas que permite la verificación basada en el host. Los clientes de MySQL pueden conectarse a MySQL Server utilizando varios protocolos, incluyendo sockets TCP/IP en cualquier plataforma. MySQL también admite una serie de programas cliente y de utilidad, programas de línea de comandos y herramientas de administración como MySQL Workbench.
+Accesibilidad. MySQL permite almacenar y acceder a los datos a través de múltiples motores de almacenamiento, incluyendo InnoDB, CSV y NDB.
+Elaboración de informes. SQL Server ofrece una amplia variedad de herramientas de análisis de datos y elaboración de informes. SQL Server Reporting Services es la más popular y está disponible como descarga gratuita.
+
+2.2. Microsoft SQL Server.
+Microsoft SQL Server es un sistema de gestión de base de datos relacional (RDBMS) producido por Microsoft. Su principal lenguaje de consulta es Transact-SQL, una aplicación de las normas ANSI / ISO estándar Structured Query Language (SQL) utilizado por ambas Microsoft y Sybase.
+
+Características de Microsoft SQL Server:
+Soporte de transacciones. 
+Escalabilidad, estabilidad y seguridad. 
+Soporte de procedimientos almacenados. 
+Incluye también un potente entorno gráfico de administración, que permite el 
+Uso de comandos DDL y DML gráficamente. 
+Permite trabajar en modo cliente-servidor, donde la información y datos se alojan en el servidor y las terminales o clientes de la red solo acceden a la información. 
+Permite administrar información de otros servidores de datos. 
+
+Microsoft SQL Server constituye la alternativa de Microsoft a otros potentes sistemas gestores de bases de datos como son Oracle, Sybase ASE, PostgreSQL o MySQL.
+Microsoft SQL Server es uno de los principales sistemas de gestión de bases de datos relacional del mercado que presta servicio a un amplio abanico de aplicaciones de software destinadas a la inteligencia empresarial y análisis sobre entornos corporativos.
+Para las compañías, emplear esta herramienta es esencial por las facilidades que plantea y las utilidades con las que cuenta. Si se tiene un listado de clientes, un catálogo de productos o incluso una gran selección de contenidos multimedia disponible, Microsoft SQL Server ayuda a gestionarlo absolutamente todo.
+
+
+
+2.3. Firebird.
+Firebird es una base de datos relacional que ofrece muchas funciones estándar ANSI SQL que se ejecuta en Linux, Windows y una variedad de plataformas Unix. Firebird ofrece excelente concurrencia, alto rendimiento y potente soporte de lenguaje para procedimientos almacenados y disparadores. 
+
+Sus características principales son: 
+Soporte completo de Procedimientos Almacenados y Triggers. 
+Las Transacciones son totalmente ACID compliant.
+Integridad referencial.
+Arquitectura Multi Generacional.
+Muy bajo consumo de recursos.
+Completo lenguaje para Procedimientos Almacenados y Triggers (PSQL). 
+Soporte para funciones externas (UDFs). 
+Poca o ninguna necesidad de DBAs especializados. 
+Prácticamente no necesita configuración.
+Una gran comunidad y muchas páginas donde conseguir buen soporte gratuito.
+Opción a usar la versión embebida - de un solo fichero - ideal para crear CDROM con catálogos, versiones de evaluación o monousuario de aplicaciones.
+Docenas de herramientas de terceros, incluyendo herramientas visuales de administración, replicación, etc.
+Escritura segura - recuperación rápida sin necesidad de logs de transacciones.
+Muchas formas de acceder a tus bases de datos: nativo/API, driver dbExpress, ODBC, OLEDB, .Net provider, driver JDBC nativo de tipo 4, módulo para Python, PHP, Perl, etc. 
+Soporte nativo para los principales sistemas operativos, incluyendo Windows, Linux, Solaris, MacOS. 
+Backups incrementales.
+Completa implementación de cursores en PSQL 
+
+2.4. Oracle.
+Oracle es una herramienta cliente/servidor para la gestión de Bases de Datos que se usa principalmente en grandes empresas, diseñado para que las organizaciones puedan controlar y gestionar grandes volúmenes de contenidos no estructurados en un único repositorio con el objetivo de reducir los costes y los riesgos asociados a la pérdida de información.
+Fabricado por Oracle Corporation que es una de las mayores compañías de software del mundo. Sus productos van desde bases de datos (Oracle) hasta sistemas de gestión.
+Las plataformas aceptadas por este sistema gestor son Windows, Linux, Mac Os X, BSD y Unix.
+
+Principales características:
+Modelo relacional: los usuarios visualizan los datos en tablas con el formato filas/columnas.
+Herramienta de administración gráfica intuitiva y cómoda de utilizar.
+Control de acceso: tecnologías avanzadas para vigilar la entrada a los datos.
+Protección de datos: seguridad completa en el entorno de producción y de pruebas y gestión de copias de seguridad.
+Lenguaje de diseño de bases de datos muy completo: permite implementar diseños "activos", que se pueden adaptar a las necesidades cambiantes de negocio.
+Alta disponibilidad: escalabilidad, protección y alto rendimiento para la actividad empresarial.
+Gestión de usuarios: agilidad en los trámites, reducción de costes y seguridad en el control de las personas que acceden a las aplicaciones y a los sistemas.
+
+
+3. Servidor FTP (File Transfer Protocol):
+3.1. FileZilla.
+El protocolo File Transfer Protocol, el es protocolo que se encarga de las transferencias de archivos entre sistemas conectados a una red de Internet. Gracias al protocolo FTP, un cliente puede conectarse a un servidor y descargarse cualquier tipo de archivo que contenga o transferir archivos a este.
+El Servicio FTP es ofrecido por la capa de Aplicación del modelo de capas de red TCP/IP al usuario, utilizando normalmente el puerto de red 20 y el 21.
+FileZilla es una aplicación FTP libre y de codigo abierto que consta de un cliente y un servidor. Soporta los protocolos FTP, SETP y FTP sobre SSL/TLS (FTPS). 
+Características de Filezilla:
+Interfaz de uso fácil y fácil de utilizar; 
+Soporta FTP, FTP sobre SSL / TLS (FTPS y FTPES) y Protocolo de Transferencia de Archivos SSH (SFTP); 
+Disponible para Windows, Linux, BSD, Mac OS X y más; 
+Soporte multilingüe; 
+Soporta reanudar y transferir archivos grandes; 
+Administrador de sitios y cola de transferencia; 
+Marcadores; 
+Soporte de arrastrar y soltar; 
+Límites de velocidad de transferencia ajustable; 
+Filtros de nombre de archivo; 
+Comparación del directorio; 
+Edición remota de archivos; 
+Registro en el archivo; 
+Navegación sincronizada del directorio; 
+Búsqueda remota de archivos 
+
+
+3.2. AndFTP (Android).
+AndFTP es es un cliente FTP/SFTP/SCP/FTPS para dispositivos Android. Permite administrar varios servidores FTP. Viene con un navegador de dispositivos y de archivos FTP. Como complemento para descargar y enviar archivos estos pueden ser renombrados, eliminados y otras características disponibles en el menú del dispositivo. 
+AndFTP es una aplicación Java compatible con Android para dispositivos inteligentes. Es un completo FTP (File Transfer Protocol) del cliente. 
+
+Sus principales características son:
+Después de instalar la aplicación se debe configurar las credenciales del servidor ftp (configuración del servidor, nombre de host, nombre de usuario, contraseña). La interfaz de usuario es fácil de usar como la mayoría de los clientes FTP.
+Administración del servidor FTP, el explorador de archivos y el explorador de archivos del dispositivo. Permite administrar múltiples servidores FTP simplemente configurando credenciales FTP en la pantalla de inicio. 
+El explorador de archivos permite examinar archivos, seleccionarlos para descargar, renombrar, eliminar, crear carpetas y cambiar los permisos de los archivos.
+
+
+
+3.3. FTPClient Pro (iOS).
+Es el mejor cliente FTP profesional en la App Store. Es compatible con los protocolos SFTP y FTPS, está disponible para iPhone e iPad.
+
+Características:
+Admite claves privadas. 
+Los archivos de vídeo o imágenes que subamos se cargan en su formato original sin usar ningún tipo de compresión. 
+Soporta gridview. 
+Incorpora un editor de texto compatible con múltiples extensiones como txt, css, php, xml, html, csv, htm. 
+Incorpora un visor de documentos compatible con las extensiones doc, txt, rtf, pdf, pps, xls. 
+Puede reproducir archivos multimedia en streaming de los formatos mp3, avi y mov. 
+Es posible mover, copiar, renombrar, eliminar archivos y carpetas manteniendo pulsado un dedo sobre la pantalla unos segundos. 
+Se pueden crear carpetas y archivos nuevos. 
+Los archivos descargados se pueden enviar por correo electrónico bien sea adjuntándolos o con un enlace al archivo. 
+Es posible realizar múltiples inicios de sesión. 
+Es compatible con múltiples codificaciones de diferentes idiomas como asiáticas, cirílicas y árabes. 
+Se puede activar seguridad para acceder a la aplicación mediante contraseña, huella o acceso por cara. 
+Se puede gestionar los permisos de los archivo y carpetas. 
+Es posible ordenar los archivos por nombre, fecha, tamaño y tipo de archivo. 
+Es facil comprimir y descomprimir los archivos descargados y es compatible con la aplicación Unrar. 
+Se puede elegir el puerto que se requiera para la conexión al servidor.

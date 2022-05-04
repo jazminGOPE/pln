@@ -1,0 +1,14 @@
+Recuperación de información. La recuperación de información es el campo dentro de la informática que se encarga de procesar textos de documentos,
+para poder recuperar partes específicas en base a palabras clave. Por ejemplo técnicas como la extracción de información estructurada o los
+sistemas de respuesta a preguntas de usuarios. No genera nuevas frases, por lo que no necesita utilizar reglas gramaticales. No es tan inteligente
+como la generación del lenguaje natural.
+
+Reconocimiento y síntesis del habla. Los sistemas de reconocimiento de voz procesan los mensajes en voz humana, los transforman en texto, los
+interpretan y comprenden la intencionalidad de los mismos, y tras la generación de la respuesta en texto, se vuelve a transformar en voz humana a
+través de la síntesis de voz. La síntesis del habla o de voz, es la que capacita a la máquina para poder generar y reproducir habla en lenguaje
+natural.
+
+Traducción automática. La traducción automática o machine translation en inglés, es un campo de investigación dentro de la lingüística
+computacional que estudia los sistemas capaces de traducir mensajes entre diferentes lenguas o idiomas. Por ejemplo Google es una de las empresas
+que más ha invertido en sistemas de traducción automática, con su traductor que utiliza un motor estadístico propio. Los sistemas de autocorrección
+y autocompletado de texto, también utilizan procesamiento del lenguaje natural.
